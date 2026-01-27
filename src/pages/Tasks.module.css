@@ -1,0 +1,19 @@
+.header {
+    display: grid;
+    gap: 10px;
+  }
+  
+  .stats {
+    display: flex;
+    gap: 12px;
+    flex-wrap: wrap;
+  }
+  
+  .card {
+    border: 1px solid #ddd;
+    border-radius: 12px;
+    padding: 12px;
+    display: grid;
+    gap: 12px;
+  }
+  
