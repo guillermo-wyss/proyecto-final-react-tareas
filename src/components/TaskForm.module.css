@@ -1,0 +1,27 @@
+.form {
+    display: flex;
+    gap: 8px;
+  }
+  
+  .input {
+    flex: 1;
+    padding: 10px;
+    border-radius: 10px;
+    border: 1px solid #ddd;
+  }
+  
+  .button {
+    padding: 10px 14px;
+    border-radius: 10px;
+    border: none;
+    background: #111;
+    color: #fff;
+    font-weight: 800;
+    cursor: pointer;
+  }
+  
+  .button:disabled {
+    background: #999;
+    cursor: not-allowed;
+  }
+  
