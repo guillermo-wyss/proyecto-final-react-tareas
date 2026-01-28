@@ -1,0 +1,32 @@
+.container {
+    padding: 20px;
+    max-width: 900px;
+    margin: 0 auto;
+  }
+  
+  .title {
+    margin: 0 0 12px 0;
+  }
+  
+  .nav {
+    display: flex;
+    gap: 12px;
+    margin-bottom: 16px;
+    flex-wrap: wrap;
+  }
+  
+  .link {
+    text-decoration: none;
+    padding: 8px 12px;
+    border-radius: 10px;
+    border: 1px solid #ddd;
+    color: #111;
+    font-weight: 700;
+  }
+  
+  .linkActive {
+    background: #111;
+    color: #fff;
+    border-color: #111;
+  }
+  
